@@ -1,0 +1,33 @@
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/ej14/ac.jpg');
+    height: 30em;
+    width: 30em;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    align-content: center;  
+}
+
+table{
+    background-color: yellow;
+    border: solid;
+    width: 80%;
+    
+}
+
+td, th{
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+th{
+    background-color: white;
+}

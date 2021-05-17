@@ -1,0 +1,16 @@
+table{
+    text-align: center;
+    border: solid;
+}
+th,td{
+    border: solid;
+}
+th{
+    background-color: teal;
+}
+.t1{
+    background-color: tomato;
+}
+.t2{
+    background-color: rgb(241, 195, 109);
+}
