@@ -1,28 +1,106 @@
-td{
-    
-    vertical-align: top;
-    text-align: center;
-    width: 110px;
-    height: 100px;
+
+.grid-content{  
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
     border: solid;
+    background-image: url(/img/ac.jpg);
+}
+
+.item{
+    margin: 10px;
+    display: flexbox;
+    border: solid;
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
 
 .a{
     background-image: url(/img/back_mantel.jpg);
+    
 }
 
 .b{
-    
-    display: flex;
-    align-items: center;
+    display: flexbox;
     justify-content: center;
-    padding: 0px;
+    justify-items: center;
     
 }
 
-.B{
+.b2{
+    object-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px; 
     background-image: url(/img/back_mantel.jpg);
-    width: 60%;
-    height: 60%;
-    
+}
+
+.c{
+    background-image: url(/img/back_mantel.jpg);
+    background-size: cover;
+}
+
+.d{
+    display: flexbox;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+}
+.d2{
+    object-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px; 
+    background-image: url(/img/back_mantel.jpg);
+    background-size: cover;
+}
+
+.e{
+    background-image: url(/img/dh.jpg);
+    background-size: cover;
+}
+
+.f{
+    background-color: white;
+}
+.f2{
+    object-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px; 
+    background-image: url(/img/dh.jpg);
+    background-size: cover;
+}
+
+.g{
+    background-color: white;
+    background-image: url(/img/dh_2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.h{
+    background-color: white;
+    background-image: url(/img/dh_3.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.i{
+    background:linear-gradient(90deg, rgb(20, 220, 20),rgb(49, 22, 10));
+}
+
+.j{
+    background:linear-gradient(180deg, rgb(90, 54, 6),rgb(49, 22, 10));
+}
+
+.k{
+    background:linear-gradient(0deg, rgb(6, 90, 44),rgb(255, 255, 255));
+}
+
+.l{
+    background:linear-gradient(0deg, rgb(6, 90, 44),rgb(255, 255, 255, 0.1));
 }
